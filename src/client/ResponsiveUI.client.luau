@@ -48,8 +48,9 @@
 	another UIScale directly in the same ScreenGui. Scale-sized (percentage) UI
 	already adapts, so don't use ReferenceResolution on it or it scales twice.
 
-	Tip: set the ScreenGui's ScreenInsets to DeviceSafeInsets to keep UI clear
-	of phone notches.
+	Tip: leave the ScreenGui's ScreenInsets at its default (CoreUISafeInsets) for
+	buttons and menus; it keeps UI clear of phone notches AND the Roblox top bar.
+	Use None only for full-screen backgrounds.
 
 	────────────────────────────────────────────────────────────────────────────
 	3) READING THE DEVICE FROM OTHER LOCALSCRIPTS
